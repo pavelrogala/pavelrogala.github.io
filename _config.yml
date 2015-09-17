@@ -1,0 +1,28 @@
+## Jekyll Configuration 
+
+# Permalinks
+
+permalink: pretty
+relative_permalinks: true
+
+# Local Hosting
+
+host: localhost
+port: 4000
+
+# General Info
+
+title: The Egregious Nerd
+tagline: Where Code Comes to Die
+url: http://pavelrogala.github.io
+pagination: 1
+baseurl: "https://pavelrogala.github.io"
+timezone: RS
+
+# About/Contact
+author:
+  name: Pavel Rogala
+  url: https://onename.com/pavelrogala
+  email: pavel.rogala@gmail.com
+
+
