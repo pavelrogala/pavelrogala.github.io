@@ -23,6 +23,16 @@ p {
    font-size: 1.4em;
 }
 
+p a {
+   color: #41817F;
+   transition: 0.5s;
+}
+
+p a:hover {
+   text-decoration: none;
+   color: #000;
+}
+
 h1.intro{
    text-align: center;
    font-size: 4.0em;
@@ -67,6 +77,16 @@ svg .logo{
 }
 svg:hover .logo{
    fill: #41817F;
+}
+
+.profile_pic {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+.profile_pic img {
+   border-radius: 200px;
 }
 
 /* Overlay style */
