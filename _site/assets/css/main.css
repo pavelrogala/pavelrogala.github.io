@@ -2,9 +2,11 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+   background: #41817F;
+}
 .cover-1{
    height: 400px;
-   padding: 20px;
    background-image: url('../img/keyboard.jpg');
    background-size: cover;
 }
@@ -13,10 +15,45 @@
    color: #cccccc;
 }
 
+h1.intro{
+   text-align: center;
+   font-size: 68px;
+   color: #cccccc;
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 80px;
+   font-weight: 700;
+}
 
+h2.sub-intro{
+   text-align: center;
+   font-size: 48px;
+   color: #cccccc;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
 
+h2.intro{
+   font-size: 48px;
+   text-align: center;
+   color: #ccc;
+}
 
+.navbar, .navbar-default, .navbar-static-top {
+   background: none;
+   border-bottom: none;
+}
 
+svg {
+   width: 60px;
+   height: 60px;
+}
+svg .logo{
+   fill: #ccc;
+   transition: 0.5s;
+}
+svg:hover .logo{
+   fill: #41817F;
+}
 
 
 
