@@ -129,10 +129,26 @@ blockquote {
    }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
    font-weight: 600;
 }
 
+.text-light {
+   color: #cccccc;
+}
+
+.text-light a {
+   color: #222222;
+}
+
+.text-light a:hover {
+   color: #cccccc;
+}
+
+.center-code-block {
+   display: inline-block;
+   margin: 10px 0;
+}
 .row-text {
    padding: 1em 0;
 }
@@ -142,7 +158,11 @@ h1, h2, h3 {
    background-size: cover;
 }
 
-h1, h2, h3 {
+.row-dark {
+   background: #41817F;
+}
+
+h1, h2, h3, h4 {
    font-family: 'Open Sans', sans-serif;
 }
 
