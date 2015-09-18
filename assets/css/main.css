@@ -5,17 +5,22 @@
 body {
    background: #fff;
 }
+
+.row-text {
+   padding: 1em 0;
+}
+
 .top-row{
    background-image: url('../img/keyboard.jpg');
    background-size: cover;
 }
-.cover-1{
-   padding:0 20px 30px;
-   margin: none;
+
+h1, h2, h3 {
+   font-family: 'Open Sans', sans-serif;
 }
 
-.cover-1 p{
-   color: #cccccc;
+p {
+   font-size: 1.4em;
 }
 
 h1.intro{
@@ -23,7 +28,6 @@ h1.intro{
    font-size: 4.0em;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
-   padding-top: 1.5em;
    font-weight: 700;
 }
 
@@ -40,6 +44,12 @@ h2.intro {
    text-align: center;
    color: #ccc;
    transition: 1s;
+   margin-bottom: 0.8em;
+}
+
+h1.title-icons {
+   font-size: 72px;
+   line-height: 72px;
 }
 
 h2.intro:hover {
@@ -114,17 +124,19 @@ svg:hover .logo{
 }
 
 .overlay ul li a {
-   font-size: 54px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 48px;
    font-weight: 300;
    display: block;
-   color: #fff;
-   -webkit-transition: color 0.2s;
-   transition: color 0.2s;
+   color: #ccc;
+   -webkit-transition: color 1s;
+   transition: color 1s;
 }
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-   color: #f0f0f0;
+   color: #41817F;
+   text-decoration: none;
 }
 
 /* Effects */
