@@ -19,8 +19,12 @@ h1, h2, h3 {
    font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+   font-size: 4.5vmin;
+   font-weight: 600;
+}
 p {
-   font-size: 1.4em;
+   font-size: 3.0vmin;
 }
 
 p a {
@@ -35,7 +39,7 @@ p a:hover {
 
 h1.intro{
    text-align: center;
-   font-size: 4.0em;
+   font-size: 4.0vmax;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
@@ -43,7 +47,7 @@ h1.intro{
 
 h2.sub-intro{
    text-align: center;
-   font-size: 3.0em;
+   font-size: 2.8vmax;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
@@ -58,8 +62,8 @@ h2.intro {
 }
 
 h1.title-icons {
-   font-size: 72px;
-   line-height: 72px;
+   font-size: 8.0vmax;
+   line-height: 8.0vmax;
 }
 
 h2.intro:hover {
