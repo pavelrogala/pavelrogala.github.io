@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-   background: #41817F;
+   background: #fff;
 }
 .top-row{
    background-image: url('../img/keyboard.jpg');
@@ -18,22 +18,6 @@ body {
    color: #cccccc;
 }
 
-.navbar-mobile{
-   height: 90px;
-}
-
-.navbar-mobile .navbar-header {
-   height: 90px;
-}
-
-.navbar-collapse-mobile {
-   background:#222222;
-}
-
-.navbar-collapse-mobile .navbar-main-right {
-   margin-top: 0;
-}
-
 h1.intro{
    text-align: center;
    font-size: 4.0em;
@@ -43,13 +27,6 @@ h1.intro{
    font-weight: 700;
 }
 
-.navbar-header-mobile {
-   float: left;
-   padding: 15px;
-   text-align: center;
-   width: 100%;
-}
-.navbar-brand-mobile {float:none;}
 h2.sub-intro{
    text-align: center;
    font-size: 3.0em;
@@ -58,45 +35,16 @@ h2.sub-intro{
    font-weight: 300;
 }
 
-h2.intro{
+h2.intro {
    font-size: 3.0em;
    text-align: center;
    color: #ccc;
+   transition: 1s;
 }
 
-.navbar, .navbar-default, .navbar-static-top {
-   background: none;
-   border-bottom: none;
+h2.intro:hover {
+   color: #41817F;
 }
-
-.navbar ul.navbar-main-right {
-   margin-top: 25px;
-   margin-right: 20px;
-}
-
-.navbar ul li a {
-   color: #ccc !important;
-   transition: 0.5s;
-   font-size: 1.4em;
-   padding: 10px 15px;
-   font-variant: small-caps;
-   text-transform: lowercase;
-}
-
-.navbar ul li a:hover {
-   color: #41817F !important;
-}
-
-.navbar ul li a.active {
-   border: 2px solid #ccc;
-   margin-left: 15px;
-}
-
-.navbar ul li a.active:hover {
-   background: #ccc;
-   color: #000 !important;
-}
-
 
 svg {
    width: 60px;
@@ -240,9 +188,13 @@ svg:hover .logo{
    float: right;
    background: #ccc;
    border: none;
+   transition: 1s;
 }
 .menu-button:focus {
    outline: 0;
+}
+.menu-button:hover {
+   background: #41817F;
 }
 .menu-button i{
    font-size: 25px;
