@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,300italic,700' rel='stylesheet' type='text/css'>
@@ -20,13 +20,8 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="row top-row">
-    <nav class="navbar navbar-default navbar-static-top hidden-xs">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                <svg xmlns:svg="http://www.w3.org/2000/svg"
+    <div class="container-fluid top-row">
+        <svg xmlns:svg="http://www.w3.org/2000/svg"
      xmlns="http://www.w3.org/2000/svg"
      width="500" height="500"
      viewBox="0 0 500 500"
@@ -39,76 +34,41 @@
         </g>
     </g>
 </svg>
-            </a>
+        <button class="menu-button" id="trigger-overlay" type="button">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="cover-1">
+            <h1 class="intro">Hi, I'm Pavel</h1>
+            <h2 class="sub-intro">
+                I'm a self-taught, full-stack Web Developer
+            </h2>
+            <h2 class="intro">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </h2>
         </div>
+    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <ul class="nav navbar-nav navbar-right navbar-main-right">
-            <li><a href="#" >Home</a></li>
+
+
+<div class="overlay overlay-door">
+    <button type="button" class="overlay-close">Close</button>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-    </div><!-- /.container-fluid -->
-</nav>
-<nav class="navbar navbar-default navbar-fixed-top navbar-mobile visible-xs">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <svg xmlns:svg="http://www.w3.org/2000/svg"
-     xmlns="http://www.w3.org/2000/svg"
-     width="500" height="500"
-     viewBox="0 0 500 500"
-     version="1.1">
-    <g transform="translate(0,-552.36216)">
-        <g transform="matrix(2.7774193,0,0,2.7460014,-1077.9551,-447.06699)">
-            <path class="logo" d="m388 401 45.5 0c21.9 0 39.8 17.9 39.8 39.8 0 21.8-17.7 39.6-39.2 39.6l-17.7 0 0 28.7-28.4 0 0-108.1zm28.4 54.9 17.6 0c8.6 0 15.6-6.8 15.6-15.4 0-8.6-6.9-15.6-15.6-15.6l-17.6 0 0 31zM505.3 401l16.7 28.7 17.6 0 0-28.7 28.4 0 0 108.1-45.5 0c-21.9 0-39.8-17.9-39.8-39.8 0-11.5 5-21.9 12.8-29.1l-22.9-39.2 32.7 0zm34.3 53.2-17.6 0c-8.6 0-15.6 6.8-15.6 15.4 0 8.6 6.9 15.6 15.6 15.6l17.6 0 0-31z"/>
-            <rect class="logo" x="388" y="364" width="180" height="29"/>
-            <rect class="logo" x="388" y="517" width="180" height="29"/>
-        </g>
-    </g>
-</svg>
-                <span class="sr-only">Pavel Rogala</span>
-            </a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-collapse-mobile" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" >Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div><!-- /.container-fluid -->
-</nav>
-    <div class="cover-1">
-        <h1 class="intro">Hi, I'm Pavel</h1>
-        <h2 class="sub-intro">
-            I'm a self-taught, full-stack Web Developer
-        </h2>
-        <h2 class="intro">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-        </h2>
-    </div>
+    </nav>
 </div>
-
-
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/menu.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
