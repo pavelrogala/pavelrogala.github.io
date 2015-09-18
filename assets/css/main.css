@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.cover-1{
+   height: 400px;
+   padding: 20px;
+   background-image: url('../img/keyboard.jpg');
+   background-size: cover;
+}
+
+.cover-1 p{
+   color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

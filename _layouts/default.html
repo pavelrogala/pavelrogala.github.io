@@ -1,11 +1,18 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Yo Fuckers</title>
-  </head>
-  <body>
-    <h1> {{ site.title }} </h1>
-    <h2> {{ page.title }} </h2>
-    {{ content }}
-</html>
+<html class="no-js" lang="">
+{% include head.html %}
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
+
+{{ content }}
+
+<footer>
+    <p>&copy; Company 2015</p>
+</footer>
+
+{% include footer.html %}
+</body>
+</html>

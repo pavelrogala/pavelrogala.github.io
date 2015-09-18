@@ -11,7 +11,7 @@ title: The Egregious Nerd
 tagline: Where Code Comes to Die
 url: http://pavelrogala.github.io
 pagination: 1
-baseurl: "http://pavelrogala.github.io"
+#baseurl: "http://pavelrogala.github.io"
 timezone: RS
 
 # About/Contact
