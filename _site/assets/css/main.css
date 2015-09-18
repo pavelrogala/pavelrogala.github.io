@@ -206,6 +206,10 @@ h2.intro {
    color: #cccccc;
 }
 
+.hr-dark {
+   border-top-color: #222222;
+}
+
 h1.title-icons {
    font-size: 8.0vmax;
    line-height: 1.0;
