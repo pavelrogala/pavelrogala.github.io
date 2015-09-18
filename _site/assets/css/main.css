@@ -5,14 +5,33 @@
 body {
    background: #41817F;
 }
-.cover-1{
-   height: 400px;
+.top-row{
    background-image: url('../img/keyboard.jpg');
    background-size: cover;
+}
+.cover-1{
+   padding-bottom: 30px;
+   margin: none;
 }
 
 .cover-1 p{
    color: #cccccc;
+}
+
+.navbar-mobile{
+   height: 90px;
+}
+
+.navbar-mobile .navbar-header {
+   height: 90px;
+}
+
+.navbar-collapse-mobile {
+   background:#222222;
+}
+
+.navbar-collapse-mobile .navbar-main-right {
+   margin-top: 0;
 }
 
 h1.intro{
@@ -20,10 +39,17 @@ h1.intro{
    font-size: 4.0em;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
-   padding-top: 80px;
+   padding-top: 1.5em;
    font-weight: 700;
 }
 
+.navbar-header-mobile {
+   float: left;
+   padding: 15px;
+   text-align: center;
+   width: 100%;
+}
+.navbar-brand-mobile {float:none;}
 h2.sub-intro{
    text-align: center;
    font-size: 3.0em;
