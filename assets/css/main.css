@@ -181,14 +181,12 @@ p a:hover {
 
 h1.intro{
    text-align: center;
-   color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
 }
 
 h2.sub-intro{
    text-align: center;
-   color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
 }
@@ -200,10 +198,22 @@ h2.intro {
    margin-bottom: 0.8em;
 }
 
+.intro-dark, .sub-intro-dark {
+   color: #222222;
+}
+
+.intro-light, .sub-intro-light {
+   color: #cccccc;
+}
+
 h1.title-icons {
    font-size: 8.0vmax;
    line-height: 1.0;
-   color: #41817F;
+   color: #222222;
+}
+
+h1.title-icons-black {
+   color: #cccccc;
 }
 
 h2.intro:hover {
