@@ -17,7 +17,7 @@ body {
 
 h1.intro{
    text-align: center;
-   font-size: 68px;
+   font-size: 4.0em;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    padding-top: 80px;
@@ -26,14 +26,14 @@ h1.intro{
 
 h2.sub-intro{
    text-align: center;
-   font-size: 48px;
+   font-size: 3.0em;
    color: #cccccc;
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
 }
 
 h2.intro{
-   font-size: 48px;
+   font-size: 3.0em;
    text-align: center;
    color: #ccc;
 }
@@ -42,6 +42,35 @@ h2.intro{
    background: none;
    border-bottom: none;
 }
+
+.navbar ul.navbar-main-right {
+   margin-top: 25px;
+   margin-right: 20px;
+}
+
+.navbar ul li a {
+   color: #ccc !important;
+   transition: 0.5s;
+   font-size: 1.4em;
+   padding: 10px 15px;
+   font-variant: small-caps;
+   text-transform: lowercase;
+}
+
+.navbar ul li a:hover {
+   color: #41817F !important;
+}
+
+.navbar ul li a.active {
+   border: 2px solid #ccc;
+   margin-left: 15px;
+}
+
+.navbar ul li a.active:hover {
+   background: #ccc;
+   color: #000 !important;
+}
+
 
 svg {
    width: 60px;
