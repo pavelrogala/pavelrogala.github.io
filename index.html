@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pavel's Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
 <!-- Hero Section -->
@@ -31,6 +32,9 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Feature 1: Software Engineering -->
             <div class="bg-white p-6 rounded-xl shadow text-center">
+                <div class="mb-4">
+                    <i data-feather="code" class="w-10 h-10 text-blue-600 mx-auto"></i>
+                </div>
                 <h3 class="text-xl font-semibold mb-2">Software Engineering</h3>
                 <p>
                     With over 17 years of experience in software development, I’ve built and maintained systems across a range of industries. Most recently, I spent 9 years at Menu Technologies as a senior software engineer and architect, where I focused on building scalable backend systems using PHP and Laravel. My work included API development, POS system integrations, and automating complex workflows. I also regularly use Python for scripting and integrating AI-based solutions.
@@ -38,6 +42,9 @@
             </div>
             <!-- Feature 2: Embedded Systems -->
             <div class="bg-white p-6 rounded-xl shadow text-center">
+                <div class="mb-4">
+                    <i data-feather="cpu" class="w-10 h-10 text-green-600 mx-auto"></i>
+                </div>
                 <h3 class="text-xl font-semibold mb-2">Embedded Systems</h3>
                 <p>
                     I enjoy designing and programming embedded systems—working with microcontrollers, sensors, and real-world interfaces. I'm currently building interactive hardware for use in Airsoft games, combining electronics, game logic, and wireless communication.
@@ -45,6 +52,9 @@
             </div>
             <!-- Feature 3: Music -->
             <div class="bg-white p-6 rounded-xl shadow text-center">
+                <div class="mb-4">
+                    <i data-feather="music" class="w-10 h-10 text-purple-600 mx-auto"></i>
+                </div>
                 <h3 class="text-xl font-semibold mb-2">Music</h3>
                 <p>
                     Music has been a huge part of my life for nearly 30 years. I’ve played guitar since I was a kid and drums for over a decade, performing and touring with several bands along the way. I’ve recorded, produced, and released five albums — all available on Spotify and Apple Music. Whether I’m on stage or in the studio, making music is one of my greatest creative passions.
@@ -54,9 +64,13 @@
     </div>
 </section>
 
+
 <!-- Contact Section -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-4 text-center">
+        <div class="mb-6">
+            <i data-feather="user-plus" class="w-12 h-12 text-blue-600 mx-auto"></i>
+        </div>
         <h2 class="text-3xl font-bold mb-4">Let's Work Together</h2>
         <p class="text-lg mb-6 max-w-2xl mx-auto">
             Whether you're building something innovative or need a seasoned developer for your team, I'm always open to new opportunities. Reach out and let's chat!
@@ -68,9 +82,14 @@
 </section>
 
 
+
 <!-- Footer -->
 <footer class="text-center py-8 text-sm text-gray-500">
     <p>&copy; 2025 Pavel. All rights reserved.</p>
 </footer>
+
+<script>
+    feather.replace();
+</script>
 </body>
 </html>
